@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+video{
+    width: 750px;
+    height: auto;
+    margin-top: 10%;
+}
+
+.container{
+    margin-left: 25%;
+}
+
+.nav-video{
+    margin-top: 0px;
+    width: 750px;
+}
+
+.progress{
+    width: 750px;
+    height: 15px;
+    margin-top: 2px;
+    cursor: pointer;
+    background-color: #abb4b8;
+}
+
+#seekbar{
+    height: 15px;
+}
