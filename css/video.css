@@ -28,3 +28,12 @@ video{
 #seekbar{
     height: 15px;
 }
+
+.legends{
+    display: inline;
+    padding-left: 10px;
+}
+
+#name{
+    text-align: center;
+}

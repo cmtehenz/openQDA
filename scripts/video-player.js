@@ -16,9 +16,17 @@ function playVid() {
     video.play();
     setInterval(update, 1000)
     durationTotal()
-    nameSpan.innerHTML = video.currentSrc
-    
-} 
+    renderTitle(video.currentSrc)
+}
+
+function renderTitle(src){
+    var text = ''
+    const fim = src.length - 4
+    const inicio = src.lastIndexOf('/') + 1
+    text = src.substring(inicio , fim )
+    text = text.charAt(0).toUpperCase() + text.slice(1)
+    nameSpan.innerHTML = text
+}
             
 function pauseVid() { 
     video.pause()
